@@ -29,7 +29,7 @@
           <div class="container-fluid " >
             <?php 
               if(!file_exists($page.".php") && !is_dir($page)){
-                  include '404.html';
+                  include $page.'/index.php';
               }else{
                 if(is_dir($page))
                   include $page.'/index.php';
