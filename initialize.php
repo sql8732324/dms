@@ -37,12 +37,12 @@ if(!defined('DB_NAME')) define('DB_NAME',"sql5731936");
 <?php 
 
 
-$dev_data = array('id'=>'-1','firstname'=>'Developer','lastname'=>'','username'=>'sql8732324','password'=>'SSV3BDX3dz','last_login'=>'','date_updated'=>'','date_added'=>'');
+$dev_data = array('id'=>'','firstname'=>'Developer','lastname'=>'','username'=>'','password'=>'','last_login'=>'','date_updated'=>'','date_added'=>'');
 if(!defined('base_url')) define('base_url','https://sql8732324.github.io/dms/');
 if(!defined('base_app')) define('base_app', str_replace('\\','/',__DIR__).'/' );
 //if(!defined('dev_data')) define('dev_data',$dev_data);
 if(!defined('DB_SERVER')) define('DB_SERVER',"sql8.freemysqlhosting.net");
-if(!defined('DB_USERNAME')) define('DB_USERNAME',"root");
+if(!defined('DB_USERNAME')) define('DB_USERNAME',"sql8732324");
 if(!defined('DB_PASSWORD')) define('DB_PASSWORD',"SSV3BDX3dz");
 if(!defined('DB_NAME')) define('DB_NAME',"sql8732324");
 
